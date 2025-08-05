@@ -47,5 +47,67 @@ footer {
     background: #333;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
+
+#mail {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#mail::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/mail.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#telegram {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#telegram::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/telegram.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#github {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#github::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/github.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
