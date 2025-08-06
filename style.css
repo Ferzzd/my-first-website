@@ -1,0 +1,112 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Навигация */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Основная часть */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Подвал */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+#mail {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#mail::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/mail.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#telegram {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#telegram::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/telegram.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#github {
+    position: relative;
+    padding-left: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#github::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../image/icon/github.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
