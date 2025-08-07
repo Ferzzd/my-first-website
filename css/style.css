@@ -84,7 +84,7 @@ footer {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url('../../image/icon/telegram.svg');
+    background-image: url('../image/icon/telegram.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +104,7 @@ footer {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url('../../image/icon/github.svg');
+    background-image: url('../image/icon/github.svg');
     background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
